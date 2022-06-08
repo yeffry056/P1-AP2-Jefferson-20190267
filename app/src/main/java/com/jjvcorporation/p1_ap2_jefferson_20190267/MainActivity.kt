@@ -21,7 +21,9 @@ import com.jjvcorporation.p1_ap2_jefferson_20190267.ui.Componentes.Screen
 import com.jjvcorporation.p1_ap2_jefferson_20190267.ui.Consulta.Consulta
 import com.jjvcorporation.p1_ap2_jefferson_20190267.ui.Registro.Registro
 import com.jjvcorporation.p1_ap2_jefferson_20190267.ui.theme.P1AP2Jefferson20190267Theme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
